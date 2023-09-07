@@ -13,21 +13,22 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="96dp"
         android:text="Go Bears!"
+        android:textColor="#FFFFFF"
         android:textSize="50sp"
         android:textStyle="bold"
-        android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="375dp"
+        android:layout_width="409dp"
         android:layout_height="457dp"
         android:layout_marginTop="24dp"
+        android:layout_marginEnd="-1dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/blackbear" />
+        app:srcCompat="@drawable/bear4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
